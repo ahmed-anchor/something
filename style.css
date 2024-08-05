@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+.container,.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    background-image: url(./images/warm.jpg);
+}
+
+
+
+.icone {
+    width: 90px;
+    height: 90px;
+}
+
+
+.my-own-container {
+    min-width: 200px;
+   
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+
+
+.container-fluid {
+    min-width: 300px;
+    max-width: 100%;
+}
+.semi {
+    width: 50%;
+    max-width: 100%;
+}
+
+.options {
+    width: 1000px;
+    min-width: 300px;
+}
+
+.cards {
+    min-width: 50px;
+    min-height: 50px;
+    height: 90px;
+    width: 90px;
+}
+
+.no-outline:focus {
+    outline: none !important;
+    border-color: grey;
+    box-shadow: none !important;
+
+}
+
+.first {
+    width: 100%;
+    background-image: url(./images/warm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blur {
+    backdrop-filter: blur(22px);
+    
+}
+
+.card {
+    /* max-height: 140px; */
+    max-width: 360px;
+}
+
+.first-span {
+    max-width: 350px;
+    margin: 0;
+}
+
+.form-container {
+    /* width: 100px; */
+    form{
+        button{
+            max-width: 80px;
+        }
+    }
+}
+
